@@ -17,18 +17,18 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:id="@+id/backButtonlecture"
             android:layout_width="53dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/backButton">
-
+            android:src="@drawable/back">
         </ImageView>
 
         <TextView
-            android:layout_width="147dp"
-            android:layout_height="wrap_content"
-            android:text="ABC">
-
-        </TextView>
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_width="357dp"
+            android:layout_height="match_parent"
+            android:text="  Lecture Library"></TextView>
 
 
     </LinearLayout>
