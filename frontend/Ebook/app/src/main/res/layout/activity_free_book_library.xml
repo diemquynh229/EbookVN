@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".FreeBookLibraryActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="681dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backButtonFreeBook"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backicon"></ImageView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="357dp"
+            android:layout_height="match_parent"
+            android:text="  Free Book Library"
+            android:textSize="40dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ChuanDoanVaSuaChua"
+        android:layout_width="179dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="317dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/freebook" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="259dp"
+        android:text="Chuan doan va sua chua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChuanDoanVaSuaChua" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

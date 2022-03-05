@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ebook">
         <activity
+            android:name=".PDFChuanDoanBook"
+            android:exported="false" />
+        <activity
+            android:name=".ChuanDoanVaSuaChuaBook"
+            android:exported="false" />
+        <activity
             android:name=".PaidBookLibraryActivity"
             android:exported="false" />
         <activity
