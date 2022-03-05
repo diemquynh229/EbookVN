@@ -20,7 +20,7 @@
             android:id="@+id/backButtonBook"
             android:layout_width="53dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/back"></ImageView>
+            android:src="@drawable/backicon"></ImageView>
 
         <TextView
             android:textColor="@color/black"

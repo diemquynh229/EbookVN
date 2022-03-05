@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_book_library.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_free_book_library.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home_actitvity.xml" value="0.31905154905457433" />
         <entry key="app/src/main/res/layout/activity_lecture_library.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.310273167706918" />
+        <entry key="app/src/main/res/layout/activity_paid_book_library.xml" value="0.1" />
       </map>
     </option>
   </component>

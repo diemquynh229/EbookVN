@@ -20,7 +20,7 @@
             android:id="@+id/backButtonlecture"
             android:layout_width="53dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/back">
+            android:src="@drawable/backicon">
         </ImageView>
 
         <TextView
