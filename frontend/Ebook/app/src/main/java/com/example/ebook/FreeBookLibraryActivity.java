@@ -10,6 +10,9 @@ import android.widget.ImageView;
 public class FreeBookLibraryActivity extends AppCompatActivity {
     ImageView backButton;
     ImageView ChuanDoanVaSuaChua;
+    ImageView HTMLBook;
+    ImageView TiaPortal;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +30,24 @@ public class FreeBookLibraryActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(FreeBookLibraryActivity.this, ChuanDoanVaSuaChuaBook.class);
+                startActivity(intent);
+            }
+        });
+
+        HTMLBook = findViewById(R.id.HTMLBook);
+        HTMLBook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FreeBookLibraryActivity.this, PDFHTMLvaAWP.class);
+                startActivity(intent);
+            }
+        });
+
+        TiaPortal = findViewById(R.id.TrainBook);
+        TiaPortal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FreeBookLibraryActivity.this, TiaPortalBook.class);
                 startActivity(intent);
             }
         });

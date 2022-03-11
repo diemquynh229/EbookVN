@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ebook">
         <activity
+            android:name=".TiaPortalBook"
+            android:exported="false" />
+        <activity
+            android:name=".PDFHTMLvaAWP"
+            android:exported="false" />
+        <activity
             android:name=".PDFChuanDoanBook"
             android:exported="false" />
         <activity
@@ -26,9 +32,6 @@
             android:exported="false" />
         <activity
             android:name=".BookLibraryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActitvity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

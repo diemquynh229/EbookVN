@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_book_library.xml" value="0.1" />
+        <entry key="app/src/main/res/font/font.xml" value="0.34010416666666665" />
+        <entry key="app/src/main/res/layout/activity_book_library.xml" value="0.2627944946289063" />
         <entry key="app/src/main/res/layout/activity_chuan_doan_va_sua_chua_book.xml" value="0.2318840579710145" />
-        <entry key="app/src/main/res/layout/activity_free_book_library.xml" value="0.15936737060546877" />
-        <entry key="app/src/main/res/layout/activity_home_actitvity.xml" value="0.31905154905457433" />
+        <entry key="app/src/main/res/layout/activity_free_book_library.xml" value="0.2275299072265625" />
+        <entry key="app/src/main/res/layout/activity_home_actitvity.xml" value="0.27725772581238683" />
+        <entry key="app/src/main/res/layout/activity_htmlva_awp.xml" value="0.2056159420289855" />
         <entry key="app/src/main/res/layout/activity_lecture_library.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.310273167706918" />
         <entry key="app/src/main/res/layout/activity_paid_book_library.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_pdfchuan_doan_book.xml" value="0.2318840579710145" />
+        <entry key="app/src/main/res/layout/activity_pdfchuan_doan_book.xml" value="0.22533111572265627" />
+        <entry key="app/src/main/res/layout/activity_pdfhtmlva_awp.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/activity_sach_tratien.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tia_portal_book.xml" value="0.11271529888551166" />
       </map>
     </option>
   </component>

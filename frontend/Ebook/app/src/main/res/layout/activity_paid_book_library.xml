@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".PaidBookLibraryActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backButtonPaidBook"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backicon"></ImageView>
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="match_parent"
+            android:text="  Paid Book Library"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
